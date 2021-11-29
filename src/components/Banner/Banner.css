@@ -7,6 +7,10 @@
 .banner-btn{
     color: white;
     border: 1px solid white;
+    position: absolute;
+    left: 48%;
+    
+    z-index: 2;
 }
 body{
     font-family: 'Exo', sans-serif;

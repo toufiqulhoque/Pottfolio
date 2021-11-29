@@ -1,0 +1,17 @@
+.sidebar{
+    position: absolute;
+    top: 50%;
+    font-size: 200%;
+    z-index: 1;
+    
+}
+.side{
+    color: white;
+    
+}
+.side:hover{
+    color: #b099da;
+}
+.side:focus{
+    color: white;
+}

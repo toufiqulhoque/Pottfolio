@@ -17,6 +17,7 @@ const Header = () => {
                 >
                     Home
                 </NavLink>
+
                 <NavLink
                     className='text-decoration-none ms-3 text-white '
                     to="/about"

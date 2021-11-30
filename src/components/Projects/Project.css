@@ -1,0 +1,20 @@
+.card1{
+    border-radius: 3%;
+    
+}
+.bg-projects{
+    background-color: #fdf7fd;
+}
+.p-btn{
+    margin: 2px;
+    background-color: #DBBFF5;
+    border: white;
+    
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .card{
+        height: 20%;
+    }
+}

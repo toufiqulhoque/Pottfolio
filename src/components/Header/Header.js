@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './Header.css'
 
 const Header = () => {
     return (
         <Container>
             <div className='header mt-4'>
-                <NavLink
-                    className='text-decoration-none text-white'
+                <Link
+                    className='pointer text-decoration-none text-white'
                     to="/home"
                     activeStyle={{
                         fontWeight: "bold",
@@ -16,38 +16,38 @@ const Header = () => {
                     }}
                 >
                     Home
-                </NavLink>
+                </Link>
 
-                <NavLink
-                    className='text-decoration-none ms-3 text-white '
-                    to="/about"
+                <Link
+                    className=' pointer text-decoration-none ms-3 text-white '
+                    to="about"
                     activeStyle={{
                         fontWeight: "bold",
                         color: "red"
                     }}
                 >
                     About
-                </NavLink>
-                <NavLink
-                    className='text-decoration-none ms-3 text-white '
-                    to="/projects"
+                </Link>
+                <Link
+                    className=' pointer text-decoration-none ms-3 text-white '
+                    to="projects"
                     activeStyle={{
                         fontWeight: "bold",
                         color: "red"
                     }}
                 >
                     Projects
-                </NavLink>
-                <NavLink
-                    className='text-decoration-none ms-3 text-white '
-                    to="/contact"
+                </Link>
+                <Link
+                    className=' pointer text-decoration-none ms-3 text-white '
+                    to="contact"
                     activeStyle={{
                         fontWeight: "bold",
                         color: "red"
                     }}
                 >
                     Contact
-                </NavLink>
+                </Link>
 
             </div>
         </Container>

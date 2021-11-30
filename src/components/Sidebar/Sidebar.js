@@ -8,7 +8,7 @@ import './Sidebar.css'
 
 const Sidebar = () => {
     return (
-        <div className='sidebar text-decoration-none'>
+        <div className='sidebar '>
             <Nav className="flex-column ">
                 <Nav.Link href="https://www.facebook.com/toufiq.hoque.18" target="_blank" className='side '><AiFillFacebook /></Nav.Link>
                 <Nav.Link href="https://github.com/toufiqulhoque" target="_blank" className='side'><AiFillGithub /></Nav.Link>

@@ -154,3 +154,39 @@ body{
     }
 
 }
+
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .area{
+        height:100vh;
+    }
+    .banner-name
+    {
+        font-size: 20px !important;
+    }
+    .Typewriter{
+        font-size: 20px !important; 
+    }
+    .banner-btn{
+        margin-top: 5px;
+        margin-left: -15px !important;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .banner-name
+    {
+        font-size: 20px !important;
+    }
+    .Typewriter{
+        font-size: 20px !important; 
+    }
+    .banner-btn{
+        margin-top: 5px;
+        margin-left: -15px !important;
+        display: block;
+    }
+}

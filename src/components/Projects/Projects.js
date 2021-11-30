@@ -71,7 +71,7 @@ const Projects = () => {
                             <Button variant="secondary" className='p-btn' disabled>Firebase Authentication</Button>
 
                         </Card.Text>
-                        <div className='d-flex justify-content-evenly'>
+                        <div className='d-flex justify-content-evenly mt-5'>
                             <a href="https://hope-medical-d7ae0.web.app/"><Button className='p-btn' variant='secondary'>Live</Button></a>
                             <a href="https://github.com/toufiqulhoque/Medic-HOPE"><Button className='p-btn' variant='secondary'>Git Link</Button></a>
                         </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                             <Button variant="secondary" className='p-btn' disabled>React-Router</Button>
 
                         </Card.Text>
-                        <div className='d-flex justify-content-evenly'>
+                        <div className='d-flex justify-content-evenly mt-5'>
                             <a href="https://study-toufiq.netlify.app/"><Button className='p-btn' variant='secondary'>Live</Button></a>
                             <a href="https://github.com/toufiqulhoque/UNI-SITE"><Button className='p-btn' variant='secondary'>Git Link</Button></a>
                         </div>
